@@ -32,6 +32,9 @@
     <Compile Include="conf.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="spec.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
