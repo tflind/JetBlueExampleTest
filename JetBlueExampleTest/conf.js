@@ -2,10 +2,12 @@
     // The address of a running selenium server.
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
-    //Capabilities to be passsed to the webdriver instance.
-    capabilities: {
+    //Capabilities to be passsed to the webdriver instance for two browsers.
+    multiCapabilities: [{
         'browserName': 'chrome'
-    },
+    }, {
+        'browserName': 'firefox'
+    }],
 
     //Protractor is called.
     specs: ['spec.js'],
